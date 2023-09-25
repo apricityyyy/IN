@@ -1,0 +1,33 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="Contact Page" content="People will be able to send their direct message.">
+    <title>Contact Me</title>
+    <link rel="icon" type="image/x-icon" href="./assets/icons/favicon.ico" />
+</head>
+
+<body>
+
+    <h2>Send a Direct Message</h2>
+
+    <form action="mailto:inovruzova07@gmail.com" method="POST" enctype="text/plain">
+        <label for="fullname"><b>Full Name: </b></label>
+        <input type="text" placeholder="Enter your full name" id="fullname" name="fullname" /> <br />
+
+        <label for="email"><b>Email Address: </b></label>
+        <input type="email" placeholder="Enter your email address" id="email" name="email" required /> <br />
+
+        <label for="personalmessage"><b>Enter your message:</b></label>
+        <br />
+        <input placeholder="What would you like to address?" type="text" id="personalmessage" name="message"
+            style="width: 400px; height: 50px;" required maxlength="1000" />
+        <br />
+
+        <input type="submit" value="Done!" />
+
+    </form>
+
+</body>
+
+</html>
