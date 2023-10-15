@@ -111,6 +111,10 @@ input[type=reset] {
       width: 20%;
       margin-top: 0;
     }
+
+    html {
+        font-size: 16px;
+    }
 }
 
 .flex-container {
@@ -133,6 +137,7 @@ nav {
     list-style: none;
     padding: 10px;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 h1, h2 {
@@ -154,9 +159,15 @@ a:hover:not(:visited) {
 a:active {
     color: #0053564e; /* Darker teal or another color for active links */
 }
+/* 
+#first img,
+#fourth img {
+    border-radius: 0px 50px;
+}
 
-img {
-    border-radius: 20px;
+#second img,
+#third img {
+    border-radius: 50px 0px;
 }
 
 div.group1, div.group2 {
@@ -185,7 +196,7 @@ figcaption {
 img.gallery:hover {
     width: 22rem;
     height: auto;
-}
+} */
 
 /* #first, #third {
     border-right: 6px solid teal;
