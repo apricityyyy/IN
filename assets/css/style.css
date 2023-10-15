@@ -159,7 +159,7 @@ a:hover:not(:visited) {
 a:active {
     color: #0053564e; /* Darker teal or another color for active links */
 }
-/* 
+
 #first img,
 #fourth img {
     border-radius: 0px 50px;
@@ -196,7 +196,7 @@ figcaption {
 img.gallery:hover {
     width: 22rem;
     height: auto;
-} */
+}
 
 /* #first, #third {
     border-right: 6px solid teal;
