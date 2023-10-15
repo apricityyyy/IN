@@ -23,7 +23,6 @@ img.myimage:hover {
 ol {
     border-left: 5px solid teal;
     background-color: #bfe2e3;
-    padding: 10px 20px;
 }
 
 ul.projects,
@@ -60,7 +59,7 @@ ul.managementandleadership {
 }
 
 a:link {
-    color: #bfe2e3;
+    color: #000000;
 }
 
 a:hover:not(:visited) {
@@ -68,7 +67,7 @@ a:hover:not(:visited) {
 }
 
 a:visited {
-    color: #013b3b;
+    color: #52314a;
 }
 
 a:active {
