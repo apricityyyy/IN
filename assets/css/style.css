@@ -63,45 +63,16 @@ a:link {
     color: #bfe2e3;
 }
 
-a:visited {
-    color: #013b3b;
-}
-
 a:hover:not(:visited) {
     color: lightgray;
 }
 
+a:visited {
+    color: #013b3b;
+}
+
 a:active {
     color: lightgray;
-}
-
-.schedule {
-    width: 90%;
-    border-bottom: 1px solid black;
-    /* border: 1px solid; */
-    /* border-collapse: collapse; */
-}
-
-table.schedule {
-    width: 90%;
-    border-collapse: collapse;
-}
-
-table.schedule th {
-    height: 40px;
-}
-
-table.schedule td {
-    text-align: center;
-}
-
-table.schedule th,
-table.schedule td {
-    border: 1px solid;
-}
-
-.schedule tr:hover {
-    background-color: teal;
 }
 
 nav {
@@ -122,12 +93,35 @@ nav {
     flex-wrap: wrap;
 }
 
+div.table {
+    margin-bottom: 10px;
+}
+
+.schedule {
+    border-collapse: collapse;
+    margin-right: auto;
+    margin-left: auto;
+    width: 70%;
+}
+
+
+table.schedule th, td {
+    height: 40px;
+    text-align: center;    
+    border: 1px solid;
+}
+
+.schedule tr:hover {
+    background-color: teal;
+}
+
 input:not([type=submit], [type=image], [type=file]) {
     border: 2px solid teal;
     border-radius: 4px;
 }
 
-body.contactme h2 {
+body.contactme>h1 {
+    margin-top: 10px;
     text-align: center;
 }
 
@@ -165,6 +159,12 @@ input[type=reset] {
     font-family: 'Merriweather', serif;
 }
 
+input[type=submit]:hover,
+input[type=reset]:hover,
+input[type=image]:hover {
+    font-size: larger;
+}
+
 @media (max-width: 600px) {
     input[type=submit] {
         width: 20%;
@@ -175,13 +175,6 @@ input[type=reset] {
         font-size: 0.5em;
     }
 }
-
-
-
-
-
-
-
 
 #first img,
 #fourth img {
@@ -202,7 +195,7 @@ div.group2 {
 }
 
 img.gallery {
-    width: 20rem;
+    width: 27rem;
     border: 5px solid teal;
     height: auto;
 }
@@ -218,12 +211,6 @@ figcaption {
 }
 
 img.gallery:hover {
-    width: 22rem;
+    width: 28rem;
     height: auto;
 }
-
-/* #first, #third {
-    border-right: 6px solid teal;
-    height: 500px;
-    padding-right: 20%;
-} */
