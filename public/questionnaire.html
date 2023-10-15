@@ -1,11 +1,29 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="questionnaire" content="Questionnaire for testing inputs.">
+    <meta name="Questionnaire" content="Questionnaire for testing inputs.">
     <title>Questionnaire</title>
-    <link rel="icon" type="image/x-icon" href="./assets/icons/favicon.ico" />
+    <link rel="icon" type="image/x-icon" href="../assets/icons/favicon.ico" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=EB+Garamond&family=Merriweather&family=Playfair+Display&family=Poiret+One&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="../assets/css/style.css">
 </head>
 <body>
+
+    <nav>
+        <ul class="links">
+            <li><a href="mailto:inovruzova07@gmail.com"><b>Email Address</b></a></li>
+            <li><a href="https://www.linkedin.com/in/ilhamanovruzova/" target="_blank"><b>LinkedIn</b></a></li>
+            <li><a href="https://github.com/apricityyyy" target="_blank"><b>GitHub</b></a></li>
+            <li><a href="https://bit.ly/3sfBDoN" target="_blank"><b>Facebook</b></a></li>
+            <li><a href="../public/contactme.html" target="_blank"><b>Contact me now!</b></a></li>
+            <li><a href="../public/questionnaire.html" target="_blank"><b>Questionnaire</b></a></li>
+            <li><a href="./public/photogallery.html" target="_blank"><b>Photo Gallery</b></a></li>
+        </ul>
+    </nav>
+
+    <br />
     <h1 align="center">Welcome to the form!</h1>
 
     <form action="mailto:inovruzova07@gmail.com" method="POST">
@@ -15,8 +33,8 @@
         <label for="fullname">Full name: </label>
         <input placeholder="Enter your full name" type="text" id="fullname" name="fullname"><hr />
 
-        <!-- <label for="birthday">Birthday:</label>
-        <input type="date" id="birthday" name="birthday" min="1920-01-01" max="2023-01-01"></form><hr /> -->
+        <label for="birthday">Birthday:</label>
+        <input type="date" id="birthday" name="birthday" min="1920-01-01" max="2023-01-01"><hr /> 
 
         <label for="email">New email address:</label>
         <input placeholder="Create an email address" type="email" id="email" name="email"><hr />
@@ -65,7 +83,7 @@
         <label for="favcolor">Select your favorite color:</label>
         <input type="color" id="favcolor" name="favcolor"><hr />
 
-        <input id="pfp" type="image" src="./assets/images/submit.png" alt="Submit" width="48" height="48" />
+        <input id="pfp" type="image" src="../assets/images/submit.png" alt="Submit" width="48" height="48" />
         
     </form>
 </body>

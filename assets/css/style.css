@@ -1,0 +1,194 @@
+body {
+    background-color: #bfe2e3;
+    font-family: 'Merriweather', serif;
+    width: 90%;
+    margin: auto;
+}
+
+hr {
+    border: 2px dotted teal;
+}
+
+img.picture0 {
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+}
+
+img.picture0:hover {
+    width: 220px;
+    height: 220px;
+}
+
+.schedule {
+    width: 90%;
+    border-bottom: 1px solid black;
+    /* border: 1px solid; */
+    /* border-collapse: collapse; */
+}
+
+table.schedule {
+    width: 90%;
+    border-collapse: collapse;
+}
+
+table.schedule th {
+    height: 40px;
+}
+
+table.schedule td {
+    text-align: center;
+}
+
+table.schedule th,
+table.schedule td {
+    border: 1px solid;
+}
+
+.schedule tr:hover {
+    background-color: teal;
+}
+
+ol {
+    border-left: 5px solid teal;
+    background-color: #bfe2e3;
+    padding: 10px 20px;
+}
+
+ul.projects,
+ul.honorsandawards,
+ul.networksandmemberships,
+ul.managementandleadership {
+    list-style-type: square;
+}
+
+input:not([type=submit], [type=image], [type=file]) {
+    border: 2px solid teal;
+    border-radius: 4px;
+}
+
+body.contactme h2 {
+    text-align: center;
+}
+
+input.fullname,
+input.email {
+    width: 100%;
+}
+
+input {
+    padding: 12px 20px;
+    margin: 8px 0;
+}
+
+input:focus {
+    background-color: lightgray;
+}
+
+input.message {
+    width: 250px;
+    transition: width 0.4s ease-in-out;
+}
+
+input.message:focus {
+    width: 100%;
+}
+
+input[type=submit],
+input[type=reset] {
+    background-color: teal;
+    border: none;
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 12px;
+    font-family: 'Merriweather', serif;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+    input[type=submit] {
+      width: 20%;
+      margin-top: 0;
+    }
+}
+
+.flex-container {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+}
+
+nav {
+    width: 100%;
+    background-color: teal;
+    top: 0;
+    left: 0;
+    position: fixed;
+    z-index: 100;
+}
+
+.links {
+    display: flex;
+    list-style: none;
+    padding: 10px;
+    justify-content: space-around;
+}
+
+h1, h2 {
+    margin-top: 70px;
+}
+
+a:link {
+    color: black; /* Darker teal or a different color that contrasts well */
+}
+
+a:visited {
+    color: #013b3b; /* Purple or a different color that contrasts with teal */
+}
+
+a:hover:not(:visited) {
+    color: #00c4c4;
+}
+ 
+a:active {
+    color: #0053564e; /* Darker teal or another color for active links */
+}
+
+img {
+    border-radius: 20px;
+}
+
+div.group1, div.group2 {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    align-items: center;
+}
+
+img.gallery { 
+    width: 20rem;
+    border: 5px solid teal;
+    height: auto;
+}
+
+div.wholegallery {
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
+figcaption {
+    text-align: center;
+}
+
+img.gallery:hover {
+    width: 22rem;
+    height: auto;
+}
+
+/* #first, #third {
+    border-right: 6px solid teal;
+    height: 500px;
+    padding-right: 20%;
+} */
